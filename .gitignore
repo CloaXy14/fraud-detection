@@ -1,0 +1,21 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local input data (keep raw public dataset and scoring batches out of VCS)
+data/
+
+# Experiment runs, serialized models, and per-row outputs
+outputs/
+*.joblib
+review_queue*.csv
+
+# OS and local workspace files
+.DS_Store
+.agent-team/
+HANDOFF.md
